@@ -327,7 +327,7 @@ export default (props: ViewerProps) => {
       newIndex = images.length - 1;
     }
     if (newIndex === state.activeIndex) {
-      return;
+      // return;
     }
     if (props.onChange) {
       const activeImage = getActiveImage(newIndex);
